@@ -1,11 +1,12 @@
-// import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
+import Overview from './pages/Overview';
 
 function App() {
   return (
     <>
-      {/* <Routes>
-        <Route path="/" element={<Greeting />} />
-      </Routes> */}
+      <Routes>
+        <Route path="/overview" element={<Overview />} />
+      </Routes>
     </>
   );
 }
