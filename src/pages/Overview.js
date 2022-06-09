@@ -1,11 +1,15 @@
 import React from 'react';
-import OverCard from '../components/overCard/OverCard';
+import OverTable from '../components/overTable/OverTable';
 import TopContainer from '../components/topContainer/TopContainer';
 
 const Overview = () => (
   <section className="section-bg p-4">
     <TopContainer />
-    <OverCard />
+    <h1 className="text-warning fw-bold text-center text-uppercase">
+      Overview
+    </h1>
+
+    <OverTable />
   </section>
 );
 
