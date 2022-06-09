@@ -1,0 +1,17 @@
+.time {
+  padding: 0.6rem 2.5rem ;
+}
+
+.active-link {
+  background-color: #FF8700 !important;
+  
+}
+
+.form-check-input:checked {
+  background-color: #EA5670!important;
+  border-color: #FF8700 !important;
+}
+.form-check-input:checked[type=checkbox] {
+  background-color: rgb(163, 161, 161)!important;
+  border-color: #fff !important;
+}

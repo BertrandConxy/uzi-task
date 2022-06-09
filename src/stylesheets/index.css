@@ -18,6 +18,10 @@ body {
   background-color: #e9b6bf;
 }
 
+.color-5 {
+  background-color: #D8EBE4;
+}
+
 .course-table {
   border-collapse: separate;
   border-spacing: 0 20px;
@@ -31,4 +35,6 @@ vertical-align: middle;
 .link {
   text-decoration: none;
 }
+
+
 
