@@ -1,10 +1,11 @@
-import React from "react";
-import "../../stylesheets/questionSection.css";
-import { BsClockFill } from "react-icons/bs";
-import QuestionCard from "./QuestionCard";
-import Pictures from "./Pictures";
-import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+/* eslint-disable jsx-a11y/label-has-associated-control */
+import React from 'react';
+import '../../stylesheets/questionSection.css';
+import { BsClockFill } from 'react-icons/bs';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import QuestionCard from './QuestionCard';
+import Pictures from './Pictures';
 
 const QuestionSection = () => (
   <section className="section-bg-2 py-3 px-3">
