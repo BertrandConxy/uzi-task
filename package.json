@@ -1,7 +1,7 @@
 {
   "name": "uzi-task",
   "version": "0.1.0",
-    "engines": {
+  "engines": {
     "node": "17.4.0"
   },
   "private": true,
@@ -21,7 +21,7 @@
     "sass": "^1.52.2",
     "web-vitals": "^2.1.4"
   },
-    "overrides": {
+  "overrides": {
     "autoprefixer": "10.4.5"
   },
   "scripts": {
@@ -52,6 +52,7 @@
     "@babel/core": "^7.18.2",
     "@babel/eslint-parser": "^7.18.2",
     "@babel/plugin-syntax-jsx": "^7.17.12",
+    "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
