@@ -1,0 +1,41 @@
+.caption {
+  bottom: -4px;
+  right: -80px;
+}
+
+.section-bg-3 {
+  background-color: #40446f;
+}
+
+.q-card {
+  flex-grow: 3;
+}
+
+.q-pic {
+  flex-grow: 2.5;
+}
+
+.tooltip {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid #ff8600;
+}
+
+.tooltip-inner {
+  transform: translateY(-50%);
+  position: absolute;
+  background: transparent;
+}
+
+.tool-text {
+  position: absolute;
+  bottom: 24px;
+  left: -15px;
+  font-size: 8px;
+}
+
+.tooltip-arrow {
+  display: none !important;
+}
