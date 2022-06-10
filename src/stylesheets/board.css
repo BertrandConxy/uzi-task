@@ -1,0 +1,28 @@
+.place {
+  width: 13rem;
+  height: auto;
+  border-radius: 9rem 9rem 0 0;
+}
+
+.place-1 {
+  background-color: yellow;
+  height: 30rem;
+}
+
+.place-2 {
+  height: 25rem;
+}
+
+.tag {
+  transform: rotateZ(330deg);
+}
+
+@media screen and (max-width: 991px) {
+  .place-2 {
+    height: 20rem;
+  }
+
+  .place-1 {
+    height: 25rem;
+  }
+}
