@@ -5,25 +5,29 @@ body {
 .section-bg {
   background-color: #23285a;
 }
+
 .color-1 {
   color: #742522;
 }
+
 .color-2 {
   background-color: #d06e53;
 }
+
 .color-3 {
   background-color: #e9a355;
 }
+
 .color-4 {
   background-color: #e9b6bf;
 }
 
 .color-5 {
-  background-color: #D8EBE4;
+  background-color: #d8ebe4;
 }
 
 .color-6 {
-  background-color: #F6BFC6;
+  background-color: #f6bfc6;
 }
 
 .course-table {
@@ -34,8 +38,9 @@ body {
 }
 
 .table > tbody {
-vertical-align: middle;
+  vertical-align: middle;
 }
+
 .link {
   text-decoration: none;
 }
@@ -43,5 +48,3 @@ vertical-align: middle;
 .round {
   border-radius: 2.1rem;
 }
-
-

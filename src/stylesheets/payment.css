@@ -1,29 +1,29 @@
 .time {
-  padding: 0.6rem 2.5rem ;
+  padding: 0.6rem 2.5rem;
 }
 
 .active-link {
-  background-color: #FF8700 !important;
-  
+  background-color: #ff8700 !important;
 }
 
 .form-check-input:checked {
-  background-color: #EA5670!important;
-  border-color: #FF8700 !important;
+  background-color: #ea5670 !important;
+  border-color: #ff8700 !important;
 }
+
 .form-check-input:checked[type=checkbox] {
-  background-color: rgb(163, 161, 161)!important;
+  background-color: rgb(163, 161, 161) !important;
   border-color: #fff !important;
 }
 
 .payment-btn {
-  background-color: #EA5670;
+  background-color: #ea5670;
   padding: 0.2rem 2.5rem;
   margin-right: 0.25rem;
 }
 
 .bold-line {
-  height: 4px!important;
+  height: 4px !important;
   background-color: #bc6808;
   border-radius: 4px;
 }
