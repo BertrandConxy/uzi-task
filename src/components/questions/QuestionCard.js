@@ -5,7 +5,7 @@ import { Figure } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const QuestionCard = () => (
-  <section className="section-bg-3 px-3 rounded-3 q-card">
+  <section className="section-bg-3 px-3 rounded-3 q-card my-3">
     <div className="d-flex flex-column text-white">
       <span>Questions</span>
       <MDBProgress height="1">
