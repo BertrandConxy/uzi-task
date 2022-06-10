@@ -33,9 +33,9 @@
 
 .tool-text {
     position: absolute;
-    bottom: 20px;
+    bottom: 24px;
     left: -15px;
-    font-size: 9px;
+    font-size: 8px;
 }
 
 .tooltip-arrow{
