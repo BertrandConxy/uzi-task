@@ -1,0 +1,30 @@
+.caption {
+    bottom: -10px;
+    right: -150px;
+}
+
+.tooltip {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #FF8600;
+    background-color: trnsparent;
+}
+
+.tooltip-inner {
+    transform: translateY(-50%);
+    position: absolute;
+    background: transparent;
+}
+
+.tool-text {
+    position: absolute;
+    bottom: 70px;
+    left: -15px;
+}
+
+.tooltip-arrow{
+    display: none!important;
+
+}
