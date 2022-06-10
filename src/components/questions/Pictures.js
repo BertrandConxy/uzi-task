@@ -6,7 +6,7 @@ import Kigali from '../../assets/Kigali.png';
 import '../../stylesheets/picture.css';
 
 const Pictures = () => (
-  <section className="row row-cols-3 align-items-center justify-content-center">
+  <section className="row row-cols-3 align-items-center justify-content-center flex-grow-2 q-pic">
     <div className="col-12 d-flex justify-content-center position-relative">
       <OverlayTrigger
         key="top"
@@ -14,7 +14,7 @@ const Pictures = () => (
         overlay={
           <Tooltip id="tooltip-top">
             <strong className="tool-text">Click here</strong>
-            <span className="position-absolute caption fw-bold fs-3">
+            <span className="position-absolute caption fw-bold fs-4">
               Kigali
             </span>
           </Tooltip>
@@ -22,13 +22,13 @@ const Pictures = () => (
       >
         <MDBRipple
           className="hover-overlay shadow-1-strong rounded"
-          style={{ maxWidth: "10rem" }}
+          style={{ maxWidth: "60px" }}
           rippleTag="div"
           rippleColor="light"
         >
           <Link to="/">
             <Figure>
-              <Figure.Image width={130} height={140} alt="" src={Kigali} />
+              <Figure.Image width={60} height={70} alt="" src={Kigali} />
             </Figure>
             <div
               className="mask"
@@ -54,13 +54,13 @@ const Pictures = () => (
       >
         <MDBRipple
           className="hover-overlay shadow-1-strong rounded"
-          style={{ maxWidth: "10rem" }}
+          style={{ maxWidth: "60px" }}
           rippleTag="div"
           rippleColor="light"
         >
           <Link to="/">
             <Figure>
-              <Figure.Image width={130} height={140} alt="" src={Kigali} />
+              <Figure.Image width={60} height={70} alt="" src={Kigali} />
             </Figure>
             <div
               className="mask"
@@ -85,13 +85,13 @@ const Pictures = () => (
       >
         <MDBRipple
           className="hover-overlay shadow-1-strong rounded"
-          style={{ maxWidth: "10rem" }}
+          style={{ maxWidth: "60px" }}
           rippleTag="div"
           rippleColor="light"
         >
           <Link to="/">
             <Figure>
-              <Figure.Image width={130} height={140} alt="" src={Kigali} />
+              <Figure.Image width={60} height={70} alt="" src={Kigali} />
             </Figure>
             <div
               className="mask"
@@ -116,13 +116,13 @@ const Pictures = () => (
       >
         <MDBRipple
           className="hover-overlay shadow-1-strong rounded"
-          style={{ maxWidth: "10rem" }}
+          style={{ maxWidth: "60px" }}
           rippleTag="div"
           rippleColor="light"
         >
           <Link to="/">
             <Figure>
-              <Figure.Image width={130} height={140} alt="" src={Kigali} />
+              <Figure.Image width={60} height={70} alt="" src={Kigali} />
             </Figure>
             <div
               className="mask"

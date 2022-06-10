@@ -5,7 +5,7 @@ import QuestionCard from './QuestionCard';
 import Pictures from './Pictures';
 
 const QuestionSection = () => (
-  <section className="section-bg-2 py-3">
+  <section className="section-bg-2 py-3 px-3">
     <div className="d-flex justify-content-between">
       <div className="d-flex flex-column align-items-center">
         <BsClockFill className="text-warning fs-2" />
@@ -20,8 +20,10 @@ const QuestionSection = () => (
         <p className="text-white fw-bold">Click on the triangle once it is pointing on right answer</p>
       </div>
     </div>
+    <div className="d-flex flex-sm-column flex-lg-row justify-content-around mt-4">
     <QuestionCard />
     <Pictures />
+    </div>
   </section>
 );
 
